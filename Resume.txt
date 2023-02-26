@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+   <head>
+        <title>Shakespeare</title>
+		
+		<style>
+        logo { 
+				   width:150px;
+				   height:150px;
+				   border-radius:50%;
+				   background-color: white;
+				   Border :16px solid red;
+				   position :absolute;
+				   top:0px;
+				   left:25%;
+				   display: flex;
+				   justify-content:center;
+				   align-items:center;
+				   color:red;
+				   font-size:24px;
+				   font-weight:bold;
+				}
+	
+	
+	
+	
+	
+		
+		</style>
+		
+
+
+
+   </header>
+</html>

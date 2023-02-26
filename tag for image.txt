@@ -1,0 +1,9 @@
+<!DOCTYPE>
+ <html>
+    <head>
+       <title>HTML TAG FOR IMAGE</title>
+    </head>
+         <body>
+		        <img src="">
+         </body>
+ </html>
