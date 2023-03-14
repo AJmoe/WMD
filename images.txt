@@ -1,0 +1,15 @@
+<DOCTYPE !>
+	<html>
+	<title> image lesson</title>
+		<head>
+			<body> 
+		     <img scr="pngwing.com" (3)>	
+			
+			
+			
+			
+			</body> 
+
+    
+		</head>
+	</html>	
