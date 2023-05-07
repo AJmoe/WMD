@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Wan Bros Home Page</title>
+   <style>
+   /* Body styles */
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #333;
+  margin: 0;
+}
+
+/* Header styles */
+header {
+  background-color: #000;
+  color: #fff;
+  padding: 10px;
+}
+
+header h1 {
+  font-size: 36px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+header h2 {
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  margin: 0;
+}
+
+header nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header nav li {
+  margin: 0;
+}
+
+header nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+header nav a:hover {
+  text-decoration: underline;
+}
+
+/* Main content styles */
+main {
+  background-color: #fff;
+  padding: 20px;
+}
+
+.featured-movies {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.featured-movie {
+  width: 30%;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.featured-movie img {
+  width: 100%;
+  height: auto;
+}
+
+.featured-movie h3 {
+  font-size: 24px;
+  font-weight: 700;
+  margin: 10px 0;
+}
+
+.featured-movie p {
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+.featured-movie a {
+  display: block;
+  background-color: #f3c700;
+  color: #fff;
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+.featured-movie a:hover {
+  background-color: #000;
+}
+
+/* Footer styles */
+footer {
+  background-color: #000;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer-navigation ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-navigation li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.footer-navigation a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-navigation a:hover {
+  text-decoration: underline;
+}
+
+.footer-social-icons {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-social-icons li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.footer-social-icons a {
+  color: #fff;
+  text-decoration: none;
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  border-radius: 50%;
+  background-color: #f3c700;
+}
+
+.footer-social-icons a:hover {
+  background-color: #fff;
+  color
+
+   </style>
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="images/logo.png" alt="Wan Bros Logo">
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#">Movies</a></li>
+          <li><a href="#">TV Shows</a></li>
+          <li><a href="#">Rentals</a></li>
+          <li><a href="#">Merchandise</a></li>
+          <li><a href="#">Theatres</a></li>
+        </ul>
+      </nav>
+      <div class="user-account">
+        <a href="#">Login / Register</a>
+      </div>
+    </header>
+    <main>
+      <section class="hero-section">
+        <div class="hero-text">
+          <h1>Experience the Best Movies with Wan Bros</h1>
+          <p>Explore our latest releases, watch trailers and find showtimes in a theatre near you.</p>
+        </div>
+        <div class="hero-image">
+          <img src="images/hero-image.jpg" alt="Movie Theater">
+        </div>
+      </section>
+      <section class="movie-releases">
+        <h2>New Movie Releases</h2>
+        <div class="movie-grid">
+          <div class="movie-item">
+            <img src="images/movie1.jpg" alt="Movie Poster">
+            <h3>Movie Title 1</h3>
+            <p>Release Date: <span>April 2023</span></p>
+            <button>Rent Now</button>
+          </div>
+          <div class="movie-item">
+            <img src="images/movie2.jpg" alt="Movie Poster">
+            <h3>Movie Title 2</h3>
+            <p>Release Date: <span>May 2023</span></p>
+            <button>Rent Now</button>
+          </div>
+          <div class="movie-item">
+            <img src="images/movie3.jpg" alt="Movie Poster">
+            <h3>Movie Title 3</h3>
+            <p>Release Date: <span>June 2023</span></p>
+            <button>Rent Now</button>
+          </div>
+        </div>
+      </section>
+      <section class="featured-movie">
+        <h2>Featured Movie</h2>
+        <div class="featured-movie-grid">
+          <div class="featured-movie-image">
+            <img src="images/featured-movie.jpg" alt="Featured Movie Poster">
+          </div>
+          <div class="featured-movie-text">
+            <h3>Movie Title</h3>
+            <p>Release Date: <span>June 2023</span></p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada mauris eu libero commodo fermentum. Aliquam euismod, lacus quis mollis maximus, metus ante tincidunt ex, ut fermentum mi justo vel est. Praesent semper, quam vel facilisis sollicitudin, nisl magna ornare enim, eu finibus magna eros vitae lectus.</p>
+            <button>Watch Trailer</button>
+          </div>
+        </div>
+      </

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Website</title>
+	<style>
+								.slider-container {
+						  position: relative;
+						}
+
+						.slider {
+						  display: flex;
+						  overflow-x: scroll;
+						  scroll-snap-type: x mandatory;
+						  -webkit-overflow-scrolling: touch;
+						}
+
+						.slider img {
+						  scroll-snap-align: start;
+						  flex-shrink: 0;
+						  width: 100%;
+						  height: auto;
+						}
+
+						.slider-button {
+						  position: absolute;
+						  top: 50%;
+						  transform: translateY(-50%);
+						  background: transparent;
+						  border: none;
+						  color: #000;
+						  font-size: 2rem;
+						  cursor: pointer;
+						  z-index: 1;
+						}
+
+						.slider-button-left {
+						  left: 10px;
+						}
+
+						.slider-button-right {
+						  right: 10px;
+						}
+
+	</style>
+</head>
+<body>
+	<header>
+		<h1></h1>
+	</header>
+	<section>
+		<a href="https://example.com/movie1">
+			<img src="john-wick-poster-qa-hed-page-2019.jpg">
+			<div class="caption-container">
+				<span class="caption"><a href="#">Movies</a></span>
+				<span class="caption"><a href="#">TV Shows</a></span>
+				<span class="caption"><a href="#">Branding</a></span>
+				<span class="caption"><a href="#">Shop</a></span>
+				<span class="caption"><a href="#">Press Release</a></span>
+			</div>
+		</a>
+		<div class="slider-container">
+  <div class="slider">
+    <img src="image1.jpg">
+    <img src="image2.jpg">
+    <img src="image3.jpg">
+    <img src="image4.jpg">
+  </div>
+  <button class="slider-button slider-button-left">&lt;</button>
+</div>
+
+	</section>
+</body>
+</html>
