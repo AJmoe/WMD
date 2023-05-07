@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Wan Bros GIF Example</title>
+	<style>
+	   body {
+                background-color: #000000;
+			} 
+		.gif-container {
+							position: relative;
+							display: inline-block;
+		               }
+
+		.captions     {
+							position: absolute;
+							top: 50%;
+							left: 50%;
+							transform: translate(-50%, -50%);
+							z-index: 1;
+		            }
+
+		.captions p  {
+							font-size: 16px;
+							font-weight: bold;
+							color: white;
+							text-align: center;
+							text-shadow: 1px 1px 2px black;
+	             	}
+	</style>
+</head>
+<body>
+	<div class="gif-container">
+		<img src="path/to/your/gif" alt="Wan Bros GIF">
+		<div class="captions">
+			<p>Caption 1</p>
+			<p>Caption 2</p>
+			<p>Caption 3</p>
+			<p>Caption 4</p>
+			<p>Caption 5</p>
+			<p>Caption 6</p>
+		</div>
+	</div>
+</body>
+</html>
